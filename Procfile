@@ -1,1 +1,1 @@
-web: ruby glossary-rails.rb
+web bundle exec puma -C config/puma.rb
