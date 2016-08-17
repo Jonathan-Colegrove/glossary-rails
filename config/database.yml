@@ -79,7 +79,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: postgresql
+  <<: *default
   database: glossary-rails_production
   username: glossary-rails
   password: <%= ENV['GLOSSARY-RAILS_DATABASE_PASSWORD'] %>
